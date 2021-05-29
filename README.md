@@ -27,31 +27,31 @@ challenge.
 <b>Dataset</b>
 
 <p>The dataset consists of parameters such as the temperature, wind direction, turbine status, weather, blade length
-, and the like.</p>
+, and the like. The dataset contains the records from Oct,2018 - Sept,2019</p>
 
 ## Results from EDA
 
 ### Data Distribution
-<img src="DataDistribution.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/DataDistribution.png"><br>
 
 ### Power Genration Across the Year
-<img src="Power Generation in each Trimonth.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Power%20Generation%20in%20each%20Trimonth.png"><br>
 <b>Maximum Power is Generated in the months December to March</b>
 
 ### Max Power in Each Month
-<img src="Max Power Generated.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Max%20Power%20Generated.png"><br>
 <b>Max Power is generated is much higher in Nov to Feb than in any other month</b>
 
 ### Avg. Power Generated depending on the Cloud levels
-<img src="Avg Power Cloud Levels.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Avg%20Power%20Cloud%20Levels.png"><br>
 <b>When Cloud Level is Low or Medium, the avg. power generated is much higher then, Extremely Low Cloud level</b>
 
 ### Relationship between Features and Targets
-<img src="Relationship between Features and Targets.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Relationship%20between%20Features%20and%20Targets.png"><br>
 <b>No Feature has a Linear Relationship with the target</b>
 
 ### Correlation Heatmap
-<img src="Correaltion Heatmap.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Correlation%20Heatmap.png"><br>
 
 ## Comparing Performance of Randm Forest, XGBoost and CatBoost
 ### R2-Scores
@@ -63,11 +63,11 @@ challenge.
 | CatBoost | 0.98 | 0.96 |
 
 ### Residual Analysis
-<img src="Residuals.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Residuals.png"><br>
 <b>Random Forest's distribution of residuals is narrower compared to other model's residuals</b>
 
 ### Homoscedestic Test
-<img src="Homoscedestic.png"><br>
+<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Homoscedestic.png"><br>
 <b>All the models gave similar performance for the test set, where as for Random Forest on train set, had some noise 
 towards the end.</b>
 
