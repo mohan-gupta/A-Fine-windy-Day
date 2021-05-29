@@ -69,11 +69,11 @@ challenge.
 ### Homoscedestic Test
 <img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Homoscedestic.png"><br>
 <b>All the models gave similar performance for the test set, where as for Random Forest on train set, had some noise 
-towards the end.</b>
+towards the end.</b><br>
 
 #### However, Catboost was not hypertuned for the given data it gave similar performance as hypertuned XGBoost.
 
-<b> In the Notebooks you can find the code and detailed explanation of this project.</b>
+In the Notebooks you can find the code and detailed explanation of this project.
 
 
 
