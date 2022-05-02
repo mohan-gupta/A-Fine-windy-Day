@@ -35,7 +35,7 @@ challenge.
 <img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/DataDistribution.png"><br>
 
 ### Power Genration Across the Year
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Power%20Generation%20in%20each%20Trimonth.png"><br>
+<img src="https://github.com/mohan-gupta/A-Fine-windy-Day/blob/main/Plots/Power%20Generation%20quarterly.png"><br>
 <b>Maximum Power is Generated in the months December to March</b>
 
 ### Max Power in Each Month
@@ -51,7 +51,7 @@ challenge.
 <b>No Feature has a Linear Relationship with the target</b>
 
 ### Correlation Heatmap
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Correlation%20Heatmap.png"><br>
+<img src="https://github.com/mohan-gupta/A-Fine-windy-Day/blob/main/Plots/corr_heatmap.png"><br>
 
 ## Comparing Performance of Randm Forest, XGBoost and CatBoost
 ### R2-Scores
