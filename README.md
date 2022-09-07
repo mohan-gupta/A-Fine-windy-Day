@@ -1,4 +1,6 @@
 # [A Fine Windy Day: HackerEarth Machine Learning challenge](https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-windmill-power/)
+<img src="images/Demo.gif"><br><br>
+
 This was the challenge on Hackerearth and in this repository I have shared my approach towards this regression 
 challenge.
 
@@ -32,26 +34,26 @@ challenge.
 ## Results from EDA
 
 ### Data Distribution
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/DataDistribution.png"><br>
+<img src="Plots/DataDistribution.png"><br>
 
 ### Power Genration Across the Year
-<img src="https://github.com/mohan-gupta/A-Fine-windy-Day/blob/main/Plots/Power%20Generation%20quarterly.png"><br>
+<img src="Plots/Power%20Generation%20quarterly.png"><br>
 <b>Maximum Power is Generated in the months December to March</b>
 
 ### Max Power in Each Month
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Max%20Power%20Generated.png"><br>
+<img src="Plots/Max%20Power%20Generated.png"><br>
 <b>Max Power is generated is much higher in Nov to Feb than in any other month</b>
 
 ### Avg. Power Generated depending on the Cloud levels
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Avg%20Power%20Cloud%20Levels.png"><br>
+<img src="Plots/Avg%20Power%20Cloud%20Levels.png"><br>
 <b>When Cloud Level is Low or Medium, the avg. power generated is much higher then, Extremely Low Cloud level</b>
 
 ### Relationship between Features and Targets
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Relationship%20between%20Features%20and%20Targets.png"><br>
+<img src="Plots/Relationship%20between%20Features%20and%20Targets.png"><br>
 <b>No Feature has a Linear Relationship with the target</b>
 
 ### Correlation Heatmap
-<img src="https://github.com/mohan-gupta/A-Fine-windy-Day/blob/main/Plots/corr_heatmap.png"><br>
+<img src="Plots/corr_heatmap.png"><br>
 
 ## Comparing Performance of Randm Forest, XGBoost and CatBoost
 ### R2-Scores
@@ -63,11 +65,11 @@ challenge.
 | CatBoost | 0.98 | 0.96 |
 
 ### Residual Analysis
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Residuals.png"><br>
+<img src="Plots/Residuals.png"><br>
 <b>Random Forest's distribution of residuals is narrower compared to other model's residuals</b>
 
 ### Homoscedestic Test
-<img src="https://github.com/Mohan-Gupta/A-Fine-windy-Day/blob/main/Plots/Homoscedestic.png"><br>
+<img src="Plots/Homoscedestic.png"><br>
 <b>All the models gave similar performance for the test set, whereas for Random Forest on train set, had some noise 
 towards the end.</b><br>
 
